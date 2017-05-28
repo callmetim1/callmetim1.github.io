@@ -80,7 +80,7 @@ p {
 	color: white;
 }
 
-.infobody {
+.infobodyone {
 	color: white;
 	padding: 100px 50px;;
 	background-image: url("nebula.gif");
@@ -104,10 +104,76 @@ p {
 	font-style: italic;
 	padding-top: 25px;
 	padding-bottom: 10px;
-	width: 1000px;
+	width: 750px;
 }
 
 .bibliography {
 	padding-left: 50px;
 	padding-bottom: 50px;
+	padding-top: 25px;
+}
+
+.infobodytwo {
+	color: white;
+	padding: 100px 50px;
+	background-image: url("stars.jpg");
+	height: 540px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.modelo-wrapper {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: block;
+}
+
+.infobodythree {
+	color: white;
+	padding: 100px 50px;
+	background-image: url("space.jpg");
+	height: 540px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.infobodyfour {
+	color: white;
+	padding: 100px 50px;
+	background-image: url("galaxies.jpg");
+	height: 540px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.infosubheader {
+	font-family: "Roboto Condensed";
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.infobodyfive {
+	color: white;
+	padding: 100px 50px;
+	background-image: url("universe.jpg");
+	height: 540px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.credits {
+	font-size: 25px;
+	font-style: italic;
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
