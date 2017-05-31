@@ -95,6 +95,7 @@ a:hover {
 .container {
 	text-align: center;
 	position: relative;
+	padding-bottom: 25px;
 }
 
 .container div {
