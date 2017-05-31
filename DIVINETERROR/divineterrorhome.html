@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DIVINE TERROR</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="index.css"/>
+  <script src='http://use.edgefonts.net/eater.js'></script>
+  <script src='http://use.edgefonts.net/frijole.js'></script>
+</head>
+<body>
+  <div class="header">
+  <nav id="navigation">
+    <a href="about.html">ABOUT   </a>
+	<a href="access.html">VISIT   </a>
+	<a href="do.html">SEE &amp DO   </a>
+	<a href="tickets.html">TICKETS &amp BARGAINS</a>
+  </nav>
+  <h1 id="head">DIVINE TERROR</h1>
+  <p id="subtitle">WHERE YOUR <span style="color:red;">DREAMS</span> COME TRUE.</p>
+  </div>
+  <div class="body">
+     <h2>COME</h2>
+	 <div class="container">
+	   <div class="slideshow">
+	     <img src="midnight-forest.jpg"/>
+	   </div>
+	   <div class="slideshow">
+	     <img src="midnight-forest-1.jpg"/>
+	   </div>
+	   <div class="slideshow">
+	     <img src="labyrinth.jpg"/>
+	   </div>
+	 </div>
+  </div>
+    <script type="text/javascript">
+  
+var currentIndex = 0;
+var items = $('.container div');
+var itemAmt = items.length;
+
+function cycleItems() {
+  var item = $('.container div').eq(currentIndex);
+  items.hide();
+  item.css('display','inline-block');
+}
+
+var autoSlide = setInterval(function() {
+  currentIndex += 1;
+  if (currentIndex > itemAmt - 1) {
+    currentIndex = 0;
+  }
+  cycleItems();
+}, 2000);
+
+  </script>
+</body>
+</html>

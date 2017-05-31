@@ -1,0 +1,103 @@
+@font-face {
+	font-family: "Something Strange";
+	src:
+	  url("SomethingStrange.ttf");
+}
+
+@font-face {
+	font-family: "Vamp";
+	src: 
+	  url("Vampire.ttf");
+}
+
+@font-face {
+	font-family: "Blood";
+	src: 
+	  url("Blood.ttf");
+}
+
+@font-face {
+	font-family: "Murder";
+	src: 
+	  url("Murder.otf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.header {
+	/*background-image: url("midnight-forest-1.jpg*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+.header a, h1, p {
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+	display: inline-block;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+#navigation {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	font-size: 40px;
+	font-family: Blood;
+	width: 75%;
+	margin: auto;
+}
+
+#head {
+	font-size: 150px;
+	letter-spacing: 15px;
+	padding-bottom: 25px;
+	font-family: "Something Strange";
+	text-align: center;
+}
+
+#subtitle {
+	font-size: 50px;
+	width: 50%;
+	margin: auto;
+	font-family: Vamp;
+	text-align: center;
+}
+
+.slideshow img {
+  position: relative;
+  padding: 50px;
+   height: 400px;
+   width: 600px;
+   	margin: auto;
+   	border: 5px white solid;
+   	box-shadow: 5px;
+}
+
+.slideshow > div {
+  position: absolute;
+}
+
+.container {
+	text-align: center;
+	position: relative;
+}
+
+.container div {
+    display: inline-block;
+    display: none;
+  }
