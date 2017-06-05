@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DIVINE TERROR</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="see.css"/>
+  <script src='http://use.edgefonts.net/eater.js'></script>
+  <script src='http://use.edgefonts.net/frijole.js'></script>
+</head>
+<body>
+  <div class="header">
+  <nav id="navigation">
+    <a href="divineterrorhome.html">HOME&nbsp;&nbsp;</a>
+	<a href="about.html">ABOUT&nbsp;&nbsp;</a>
+	<a href="access.html">ACCESS&nbsp;&nbsp;</a>
+	<a href="tickets.html">TICKETS &amp BARGAINS</a>
+  </nav>
+  <h1 id="head">WHAT IS DIVINE TERROR?</h1>
+  <p id="subtitle">SEE THE <span style="color:red;">THINGS</span> YOU'VE NEVER SEEN BEFORE.</p>
+  </div>
+ <div class="viewer">
+    <nav id="navigation">
+    <a href="divineterrorhome.html">HOME&nbsp;&nbsp;</a>
+	<a href="about.html">ABOUT&nbsp;&nbsp;</a>
+	<a href="see.html">SEE &amp DO&nbsp;&nbsp;</a>
+	<a href="access.html">ACCESS</a>
+  </nav>
+  </div>
+  <div class="body">
+    <h3 class="subheader">SO REALISTIC IT'S CREEPY.</h3>
+	<p class="text">DIVINE TERROR offers a range of attractions from super-scary rollercoasters to super-realistic 4D walks. Taste your fears, and see how much you can handle.</p>
+	<p class="text">In this park, we have 7 rides: <br><br>
+1. The 9 Levels of Hell, a humongous high-speed jet-coaster going through different scenes of distress and horrors.<br><br>
+2. Curse of Saruhman, a labyrinth maze puzzle based on Curses and mazes (includes stealing a cart and travelling along rails.<br><br>
+3. The Path of Destruction, another labyrinth based on a variation of phobias, affecting many people.<br><br>
+4. Psychedelic Circus, a walk through a hypnotic circus house amongst a gang of evil clowns.
+5. Fall of Dismay, another super-speed jet-coaster with many loop-the-loops and quick turns, and jump-scares.<br><br>
+6. Hall of Fear, a 4D walk through several different settings, with stories and experiences based on Creepypasta stories.<br><br>
+7. FRIGHT!, a rollercoaster tower of heights.<br><br><br>
+
+  </div>
+</body>
+<script>
+$(document).ready(function(){
+  $(window).scroll(function(){
+         var sticky = $('.viewer'),
+         scroll = $(window).scrollTop();
+        if (scroll >= 150){
+            sticky.addClass('fixed');
+            sticky.slideDown(500);
+        }else{
+            sticky.removeClass('fixed');
+            sticky.removeAttr("style");
+	    sticky.slideUp(500);
+        }
+    });
+});
+</script>
+
+</html>

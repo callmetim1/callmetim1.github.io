@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 @font-face {
 	font-family: "Something Strange";
 	src:
@@ -56,40 +58,26 @@ a:hover {
 #navigation {
 	padding-top: 50px;
 	padding-bottom: 25px;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: Blood;
 	width: 75%;
 	margin: auto;
 }
 
 #head {
-	font-size: 150px;
-	letter-spacing: 15px;
+	font-size: 75px;
+	letter-spacing: 10px;
 	padding-bottom: 25px;
 	font-family: "Something Strange";
 	text-align: center;
 }
 
 #subtitle {
-	font-size: 50px;
+	font-size: 30px;
 	width: 50%;
 	margin: auto;
 	font-family: Vamp;
 	text-align: center;
-}
-
-.slideshow img {
-  position: relative;
-  padding: 50px;
-   height: 400px;
-   width: 600px;
-   	margin: auto;
-   	border: 5px white solid;
-   	box-shadow: 5px;
-}
-
-.slideshow > div {
-  position: absolute;
 }
 
 .container {
@@ -101,4 +89,34 @@ a:hover {
 .container div {
     display: inline-block;
     display: none;
-  }
+}
+
+.subheader {
+	color: white;
+	font-size: 35px;
+		padding-left: 125px;
+		padding-top: 50px;
+		font-family: "Roboto Condensed";
+		font-weight: bold;
+}
+
+.text {
+	color: white;
+	font-size: 25px;
+	padding-left: 125px;
+	padding-top: 50px;
+	width: 700px;
+	font-family: Oswald;
+}
+
+.body {
+  width: 100%;
+}
+
+.body iframe {
+  height: 800px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 @font-face {
 	font-family: "Something Strange";
 	src:
@@ -56,49 +58,54 @@ a:hover {
 #navigation {
 	padding-top: 50px;
 	padding-bottom: 25px;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: Blood;
 	width: 75%;
 	margin: auto;
 }
 
 #head {
-	font-size: 150px;
-	letter-spacing: 15px;
-	padding-bottom: 25px;
+	font-size: 95px;
+	letter-spacing: 10px;
+	padding-bottom: 15px;
 	font-family: "Something Strange";
 	text-align: center;
+	color: red;
 }
 
 #subtitle {
-	font-size: 50px;
+	font-size: 30px;
 	width: 50%;
 	margin: auto;
 	font-family: Vamp;
 	text-align: center;
 }
 
-.slideshow img {
-  position: relative;
-  padding: 50px;
-   height: 400px;
-   width: 600px;
-   	margin: auto;
-   	border: 5px white solid;
-   	box-shadow: 5px;
+.subheader {
+	color: white;
+	font-size: 35px;
+		padding-left: 125px;
+		padding-top: 50px;
+		font-family: "Roboto Condensed";
+		font-weight: bold;
 }
 
-.slideshow > div {
-  position: absolute;
+.text {
+	color: white;
+	font-size: 25px;
+		padding-left: 125px;
+		padding-top: 50px;
+		width: 700px;
+		font-family: Oswald;
 }
 
-.container {
-	text-align: center;
-	position: relative;
-	padding-bottom: 25px;
+.body {
+	padding-top: 50px;
 }
 
-.container div {
-    display: inline-block;
-    display: none;
-  }
+.logo {
+	padding: 50px 50px;
+	width: 400px;
+	height: 400px;
+	
+}
