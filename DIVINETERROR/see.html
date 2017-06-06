@@ -18,14 +18,6 @@
   <h1 id="head">WHAT IS DIVINE TERROR?</h1>
   <p id="subtitle">SEE THE <span style="color:red;">THINGS</span> YOU'VE NEVER SEEN BEFORE.</p>
   </div>
- <div class="viewer">
-    <nav id="navigation">
-    <a href="divineterrorhome.html">HOME&nbsp;&nbsp;</a>
-	<a href="about.html">ABOUT&nbsp;&nbsp;</a>
-	<a href="see.html">SEE &amp DO&nbsp;&nbsp;</a>
-	<a href="access.html">ACCESS</a>
-  </nav>
-  </div>
   <div class="body">
     <h3 class="subheader">SO REALISTIC IT'S CREEPY.</h3>
 	<p class="text">DIVINE TERROR offers a range of attractions from super-scary rollercoasters to super-realistic 4D walks. Taste your fears, and see how much you can handle.</p>
@@ -41,21 +33,4 @@
 
   </div>
 </body>
-<script>
-$(document).ready(function(){
-  $(window).scroll(function(){
-         var sticky = $('.viewer'),
-         scroll = $(window).scrollTop();
-        if (scroll >= 150){
-            sticky.addClass('fixed');
-            sticky.slideDown(500);
-        }else{
-            sticky.removeClass('fixed');
-            sticky.removeAttr("style");
-	    sticky.slideUp(500);
-        }
-    });
-});
-</script>
-
 </html>
